@@ -1,0 +1,99 @@
+/* ===== */
+/* other */
+/* ===== */
+
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f5f4fa;
+  --background-footer: #2f303a;
+  --background-button: #2196f3;
+  --logo-web: #2196f3;
+  --logo-studio-header: #000000;
+  --logo-studio-footer: #ffffff;
+  --text-accent: #2196f3;
+  --text-button: #ffffff;
+  --text-primary: #757575;
+  --text-secondary: #212121;
+  --text-footer-address: #ffffff;
+  --text-footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--text-primary);
+}
+
+/* delete list marks */
+.list {
+  list-style: none;
+}
+
+/* delete links underline */
+.link {
+  text-decoration: none;
+}
+
+/* ==== */
+/* logo */
+/* ==== */
+
+.logo {
+  color: var(--logo-web);
+}
+
+.logo-header {
+  color: var(--logo-studio-header);
+}
+
+.logo-footer {
+  color: var(--logo-studio-footer);
+}
+
+/* ============== */
+/* header of page */
+/* ============== */
+
+/* site nav */
+.site-nav .link {
+  color: var(--text-secondary);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-accent);
+}
+
+/* auth nav */
+.contacts-nav .link {
+  color: var(--text-primary);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--text-accent);
+}
+
+/* ============== */
+/* footer of page */
+/* ============== */
+
+.footer {
+  background-color: var(--background-footer);
+}
+
+.address-nav .direction {
+  color: var(--text-footer-address);
+}
+
+.address-nav .contacts {
+  color: var(--text-footer-contacts);
+}
+
+/* ================== */
+/* main (studio) page */
+/* ================== */
+
+/* section hero */
+
+/* ============== */
+/* portfolio page */
+/* ============== */
