@@ -33,6 +33,32 @@ body {
   color: var(--grey-secondary);
 }
 
+/* ======= */
+/* buttons */
+/* ======= */
+
+.button {
+  background-color: var(--white-primary);
+  color: var(--black-logo);
+}
+
+/* primary */
+.button.primary {
+  background-color: var(--accent);
+  color: var(--white-primary);
+}
+
+/* secondary */
+.button.secondary {
+  background-color: var(--white-secondary);
+  color: var(--grey-secondary);
+}
+
+.button.secondary:hover {
+  background-color: var(--accent);
+  color: var(--white-primary);
+}
+
 /* ==== */
 /* logo */
 /* ==== */
@@ -94,9 +120,9 @@ body {
   color: var(--white-primary-opacity);
 }
 
-/* ================= */
-/* studio page, main */
-/* ================= */
+/* ======================== */
+/* studio page main content */
+/* ======================== */
 
 /* hero */
 .hero {
@@ -104,11 +130,6 @@ body {
 }
 
 .hero-title {
-  color: var(--white-primary);
-}
-
-.hero > button {
-  background-color: var(--accent);
   color: var(--white-primary);
 }
 
@@ -128,20 +149,9 @@ body {
   color: var(--grey-secondary);
 }
 
-/* ============== */
-/* portfolio page */
-/* ============== */
-
-/* filter */
-.filter button {
-  background-color: var(--white-secondary);
-  color: var(--grey-secondary);
-}
-
-.filter button:hover {
-  background-color: var(--accent);
-  color: var(--white-primary);
-}
+/* =========================== */
+/* portfolio page main content */
+/* =========================== */
 
 /* portfolio list */
 .portfolio-list .title {
