@@ -76,7 +76,8 @@ body {
 }
 
 .logo:hover,
-.logo:hover > .logo-header {
+.logo:hover > .logo-header,
+.logo:hover > .logo-footer {
   color: var(--accent);
 }
 
