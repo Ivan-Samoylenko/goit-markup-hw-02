@@ -48,6 +48,11 @@ body {
   color: var(--logo-studio-footer);
 }
 
+.logo:hover,
+.logo:hover .logo-header {
+  color: var(--text-accent);
+}
+
 /* ============== */
 /* header of page */
 /* ============== */
