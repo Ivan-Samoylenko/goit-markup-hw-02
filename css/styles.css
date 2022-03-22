@@ -94,6 +94,10 @@ body {
   color: var(--accent);
 }
 
+.site-nav .link.current {
+  color: var(--accent);
+}
+
 /* auth nav */
 .contacts-nav .link {
   color: var(--grey-primary);
