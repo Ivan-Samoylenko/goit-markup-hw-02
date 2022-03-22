@@ -137,3 +137,23 @@ body {
 /* ============== */
 /* portfolio page */
 /* ============== */
+
+/* filter */
+.filter button {
+  background-color: var(--background-secondary);
+  color: var(--text-secondary);
+}
+
+.filter button:hover {
+  background-color: var(--background-button);
+  color: var(--text-button);
+}
+
+/* portfolio list */
+.portfolio-list .title {
+  color: var(--text-secondary);
+}
+
+.portfolio-list p {
+  color: var(--text-primary);
+}
