@@ -54,7 +54,8 @@ body {
   color: var(--grey-secondary);
 }
 
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   background-color: var(--accent);
   color: var(--white-primary);
 }
