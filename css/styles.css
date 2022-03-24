@@ -16,6 +16,10 @@
 
 /* page */
 body {
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--grey-primary);
 }
 
@@ -31,6 +35,10 @@ body {
 
 /* sections */
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   color: var(--grey-secondary);
 }
 
@@ -45,12 +53,19 @@ body {
 
 /* primary */
 .button.primary {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   background-color: var(--accent);
   color: var(--white-primary);
 }
 
 /* secondary */
 .button.secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   background-color: var(--white-secondary);
   color: var(--grey-secondary);
 }
@@ -66,6 +81,10 @@ body {
 /* ==== */
 
 .logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent);
 }
 
@@ -87,6 +106,14 @@ body {
 /* header of page */
 /* ============== */
 
+/* general */
+.site-nav,
+.contacts-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* site nav */
 .site-nav .link {
   color: var(--grey-secondary);
@@ -101,7 +128,7 @@ body {
   color: var(--accent);
 }
 
-/* auth nav */
+/* contacts nav */
 .contacts-nav .link {
   color: var(--grey-primary);
 }
@@ -117,6 +144,10 @@ body {
 
 .footer {
   background-color: var(--grey-footer);
+}
+
+.address-nav {
+  font-style: normal;
 }
 
 .address-nav .direction {
@@ -137,11 +168,21 @@ body {
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-primary);
 }
 
 /* features */
 .features-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--grey-secondary);
 }
 
@@ -151,8 +192,16 @@ body {
 .section.team {
   background-color: var(--white-secondary);
 }
+.team-list .title,
+.team-list p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
 
 .team-list .title {
+  font-weight: 500;
+  font-size: 16px;
   color: var(--grey-secondary);
 }
 
@@ -162,9 +211,15 @@ body {
 
 /* portfolio list */
 .portfolio-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--grey-secondary);
 }
 
 .portfolio-list p {
+  font-size: 16px;
+  line-height: 1.88px;
   color: var(--grey-primary);
 }
