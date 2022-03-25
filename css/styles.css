@@ -192,6 +192,7 @@ body {
 .section.team {
   background-color: var(--white-secondary);
 }
+
 .team-list .title,
 .team-list p {
   font-size: 16px;
