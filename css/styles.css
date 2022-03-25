@@ -158,6 +158,11 @@ body {
   color: var(--white-primary-opacity);
 }
 
+.address-nav .contacts:hover,
+.address-nav .contacts:focus {
+  color: var(--accent);
+}
+
 /* ======================== */
 /* studio page main content */
 /* ======================== */
