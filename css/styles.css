@@ -48,6 +48,7 @@ body {
 .button {
   background-color: var(--white-primary);
   color: var(--black-logo);
+  cursor: pointer;
 }
 
 /* primary */
